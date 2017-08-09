@@ -6,4 +6,4 @@ Originally, this was written as a tool to help study the "underside" of Facebook
 Browse to the url https://www.facebook.com/?sk=ff, and launch the javascript console by using inspect element. Enter the friendify code. 
 
 # Future Plans
-Integrate this into a plugin for Chrome or Firefox. 
+Integrate this into a plugin for Chrome or Firefox or as a stand alone app. 
