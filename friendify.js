@@ -1,5 +1,5 @@
 /*
-* Accept all friend requests and make all friend requests by clicking on buttons 
+* Accept all friend requests and make friend requests by clicking on buttons
 * in the "Find Friends" page: https://www.facebook.com/?sk=ff
  */
 function sleep(ms) {
@@ -21,6 +21,7 @@ async function friendify() {
             if (buttons[i].firstChild != null && buttons[i].firstChild.outerHTML != null &&(buttons[i].firstChild.nodeValue == confirmBtn || buttons[i].firstChild.outerHTML.contains(addFriendBtn))) {
                 await sleep (delay);
                 buttons[i].click();
+                console.log("Friend added: " + buttons[i]);
             }
         }
         //click on link that expands the list of friends to accept and request
